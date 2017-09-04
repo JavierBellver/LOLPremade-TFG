@@ -1,0 +1,75 @@
+﻿[
+  {
+    "outputFileName": "wwwroot/app/libbundle.min.js",
+    "inputFiles": [
+      "wwwroot/js/services/APIAccess.js",
+      "wwwroot/js/services/Utilities.js",
+      "wwwroot/lib/jquery/dist/jquery.js",
+      "wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "node_modules/react/dist/react.js",
+      "node_modules/react/dist/remarkable.js",
+      "node_modules/react/dist/react-dom.js",
+      "node_modules/react/dist/react-router.js",
+      "node_modules/react/dist/react-router-dom.js",
+      "node_modules/react/dist/react-modal.js"
+    ],
+    "minify": {
+      "enabled": true
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/landingpage.min.css",
+    "inputFiles": [
+      "wwwroot/css/Login-Form-Dark.css",
+      "wwwroot/css/Registration-Form-with-Photo.css",
+      "wwwroot/css/user.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/mainpage.min.css",
+    "inputFiles": [
+      "wwwroot/css/HomePage.css",
+      "wwwroot/css/Cards.css",
+      "wwwroot/css/UserPage.css",
+      "wwwroot/css/Footer-Clean.css",
+      "wwwroot/css/Navigation-with-Button1.css",
+      "wwwroot/css/styles.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/app/landingPage.jsx",
+    "inputFiles": [
+      "wwwroot/js/react-components/landingPage/loginComponent.jsx",
+      "wwwroot/js/react-components/landingPage/registerComponent.jsx",
+      "wwwroot/js/react-components/landingPage/landingComponent.jsx",
+      "wwwroot/js/react-components/landingPage/landingPage.jsx"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  },
+  {
+    "outputFileName": "wwwroot/app/mainpage.jsx",
+    "inputFiles": [
+      "wwwroot/js/react-components/mainPage/homePageComponent.jsx",
+      "wwwroot/js/react-components/mainPage/usersPageComponent.jsx",
+      "wwwroot/js/react-components/mainPage/teamsPageComponent.jsx",
+      "wwwroot/js/react-components/mainPage/teamProfilePageComponent.jsx",
+      "wwwroot/js/react-components/mainPage/teamPublicProfilePage.jsx",
+      "wwwroot/js/react-components/mainPage/userPublicProfilePage.jsx",
+      "wwwroot/js/react-components/mainPage/tournamentsPageComponent.jsx",
+      "wwwroot/js/react-components/mainPage/profileComponent.jsx",
+      "wwwroot/js/react-components/mainPage/navbarComponent.jsx",
+      "wwwroot/js/react-components/mainPage/footerComponent.jsx",
+      "wwwroot/js/react-components/mainPage/mainPage.jsx",
+      "wwwroot/js/react-components/mainPage/aboutPageComponent.jsx"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  }
+]
