@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0-*",
+
+  "testRunner": "mstest",
+
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Castle.Core": "4.1.0",
+    "dotnet-test-mstest": "1.1.2-preview",
+    "lolpremade": "1.0.0-*",
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.1"
+    },
+    "Moq": "4.7.46",
+    "MSTest.TestFramework": "1.1.11"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  }
+}
